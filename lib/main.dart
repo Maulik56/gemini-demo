@@ -6,12 +6,14 @@ import 'package:image_picker/image_picker.dart';
 import 'package:lottie/lottie.dart';
 
 void main() {
+  /// GEMINI API KEY
   Gemini.init(apiKey: '--- Your Gemini Api Key ---');
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
 
   @override
   Widget build(BuildContext context) {
