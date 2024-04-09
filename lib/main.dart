@@ -294,7 +294,7 @@ class _SectionTextAndImageInputState extends State<SectionTextAndImageInput> {
   }
 }
 
-/// Section Chart:
+/// Section Chart Widget:
 class SectionChat extends StatefulWidget {
   const SectionChat({super.key});
 
